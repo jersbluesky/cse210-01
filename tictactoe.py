@@ -67,10 +67,18 @@
 # WINNER FUNCTION
 # # If 
 
-# Define a winning combination
-# # Define which player won
-# Define a board with no winner
 
+def display_rules():
+    print("This is Tic Tac Toe. If you don't know the rules, too bad!")
+
+def display_board():
+    return
+
+def winner():
+    return
+
+def draw():
+    return
 
 
 
@@ -83,3 +91,5 @@ def main():
     if (end == True):
         print("How about a nice game of chess?")
     else:
+        end = turn()
+        turn += 1
